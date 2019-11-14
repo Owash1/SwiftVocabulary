@@ -12,7 +12,8 @@
 		4F8F45E5237CEB5C006FD5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8F45E4237CEB5C006FD5D5 /* Assets.xcassets */; };
 		4F8F45E8237CEB5C006FD5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8F45E6237CEB5C006FD5D5 /* LaunchScreen.storyboard */; };
 		4F8F45F2237CEC63006FD5D5 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F45F1237CEC63006FD5D5 /* DefinitionViewController.swift */; };
-		4F8F45F4237CECB8006FD5D5 /* WordsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F45F3237CECB8006FD5D5 /* WordsTableTableViewController.swift */; };
+		4F8F45F4237CECB8006FD5D5 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F45F3237CECB8006FD5D5 /* WordsTableViewController.swift */; };
+		4F8F45F6237CF5E4006FD5D5 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F45F5237CF5E4006FD5D5 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		4F8F45E7237CEB5C006FD5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F8F45E9237CEB5C006FD5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8F45F1237CEC63006FD5D5 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
-		4F8F45F3237CECB8006FD5D5 /* WordsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableTableViewController.swift; sourceTree = "<group>"; };
+		4F8F45F3237CECB8006FD5D5 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		4F8F45F5237CF5E4006FD5D5 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,8 @@
 		4F8F45D1237CEB5B006FD5D5 = {
 			isa = PBXGroup;
 			children = (
-				4F8F45F3237CECB8006FD5D5 /* WordsTableTableViewController.swift */,
+				4F8F45F5237CF5E4006FD5D5 /* VocabularyWord.swift */,
+				4F8F45F3237CECB8006FD5D5 /* WordsTableViewController.swift */,
 				4F8F45F1237CEC63006FD5D5 /* DefinitionViewController.swift */,
 				4F8F45DC237CEB5B006FD5D5 /* SwiftVocabulary */,
 				4F8F45DB237CEB5B006FD5D5 /* Products */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8F45F4237CECB8006FD5D5 /* WordsTableTableViewController.swift in Sources */,
+				4F8F45F4237CECB8006FD5D5 /* WordsTableViewController.swift in Sources */,
+				4F8F45F6237CF5E4006FD5D5 /* VocabularyWord.swift in Sources */,
 				4F8F45F2237CEC63006FD5D5 /* DefinitionViewController.swift in Sources */,
 				4F8F45DE237CEB5B006FD5D5 /* AppDelegate.swift in Sources */,
 			);
