@@ -11,7 +11,8 @@ import UIKit
 class DefinitionViewController: UIViewController {
     var vocabWord2: VocabularyWord?
     
-    
+    @IBOutlet var definitionTextView: UITextView!
+    @IBOutlet var wordTextView: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,7 +23,8 @@ class DefinitionViewController: UIViewController {
     func updateViews() {
         if let vocabWord = vocabWord2 {
             title = vocabWord.word
-            
+         definitionTextView.text = vocabWord.definition
+            wordTextView.text = vocabWord.word
         }
     }
     
